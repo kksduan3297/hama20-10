@@ -1,0 +1,43 @@
+/* Tiny's own little wardrobe. The page layout remains in styles.css. */
+#tiny-dock { --tiny-size: 112px; z-index: 35; }
+#tiny-companion { display:block; width:var(--tiny-size); height:auto; padding:0; border:0; background:transparent; cursor:pointer; -webkit-tap-highlight-color:transparent; position:relative; flex-shrink:0; touch-action:pan-y; border-radius:44%; }
+#tiny-companion:focus-visible { outline:3px solid #28bbc8; outline-offset:5px; }
+#tiny-art { display:block; width:100%; transform-origin:50% 75%; }
+#tiny-art .tiny-robot { display:block; width:100%; height:auto; overflow:visible; filter:drop-shadow(0 2px 15px #60e8e81a); }
+#tiny-dock.hero { --tiny-size: min(72vw,300px); }
+#tiny-art .tiny-bob { transform-origin:180px 270px; animation:tiny-float 4.6s ease-in-out infinite; }
+#tiny-art .tiny-eyes, #tiny-art .tiny-eyes-glow { transform-origin:180px 151px; animation:tiny-blink 6.3s infinite; }
+#tiny-art .tiny-eye { transition:d .23s ease,stroke .25s; }
+#tiny-art .tiny-cheeks { opacity:.2; transition:opacity .25s; }
+#tiny-art .tiny-ribbon { opacity:0; transform-origin:185px 65px; transition:opacity .35s,filter .35s; }
+#tiny-art.has-bow .tiny-ribbon { opacity:1; }
+#tiny-art .tiny-sleep-z { display:none; }
+#tiny-art[data-mood="sleep"] .tiny-sleep-z { display:block; animation:tiny-z 3s ease-in-out infinite; }
+#tiny-art[data-mood="sleep"] .tiny-eyes, #tiny-art[data-mood="sleep"] .tiny-eyes-glow { opacity:.48; animation:tiny-breathe-eye 3.8s ease-in-out infinite; }
+#tiny-art[data-mood="sleep"] .tiny-bob { animation:tiny-sleep-bob 3.8s ease-in-out infinite; }
+#tiny-art[data-mood="happy"] .tiny-cheeks, #tiny-art[data-mood="excited"] .tiny-cheeks, #tiny-art[data-mood="love"] .tiny-cheeks, #tiny-art.tiny-petted .tiny-cheeks { opacity:1; }
+#tiny-art[data-mood="love"] .tiny-eye { stroke:#ffa2c8; stroke-width:4; fill:#ffa2c833; }
+#tiny-art[data-mood="love"] .tiny-eyes-glow { stroke:#f59bc8; }
+#tiny-art[data-mood="sad"] .tiny-head { transform:translateY(2px) rotate(-2deg); transform-origin:180px 180px; }
+#tiny-art .tiny-heart-light { animation:tiny-heartbeat 2.8s infinite; transform-origin:180px 276px; }
+#tiny-art .tiny-antenna-light { animation:tiny-antenna 3s infinite; }
+#tiny-art .tiny-right-arm { transform-origin:242px 255px; }
+#tiny-art[data-mood="happy"] .tiny-right-arm, #tiny-art[data-mood="excited"] .tiny-right-arm { animation:tiny-wave 1s ease-in-out 2; }
+#tiny-art.tiny-jump { animation:tiny-pet-bounce .7s cubic-bezier(.22,.61,.36,1); }
+#tiny-art.tiny-petted .tiny-robot { filter:drop-shadow(0 0 19px #ffa1cd66); }
+#tiny-speech { font-size:clamp(.8rem,2.8vw,.94rem); line-height:1.55; color:#67404f; max-width:290px; border:1px solid #f1d8df; border-radius:19px 19px 19px 5px; background:rgba(255,252,248,.96); padding:12px 15px; box-shadow:0 8px 35px #a95e7e13; position:relative; backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px); }
+#tiny-speech[hidden] { display:none!important; }
+#tiny-speech.tiny-speech-in { animation:tiny-speech .3s ease-out; }
+.hero #tiny-speech { text-align:center; max-width:330px; margin:0 auto; border-radius:20px; }
+@keyframes tiny-float { 0%,100%{transform:translateY(0) rotate(-.8deg)}50%{transform:translateY(-7px) rotate(.8deg)} }
+@keyframes tiny-sleep-bob { 0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(3px) scale(1.015,.985)} }
+@keyframes tiny-blink { 0%,42%,45%,93%,96%,100%{transform:scaleY(1)}43.5%,94.5%{transform:scaleY(.06)} }
+@keyframes tiny-breathe-eye { 0%,100%{opacity:.32}50%{opacity:.65} }
+@keyframes tiny-z { 0%,100%{opacity:.35;transform:translateY(3px)}50%{opacity:.85;transform:translateY(-5px)} }
+@keyframes tiny-heartbeat { 0%,40%,80%,100%{transform:scale(1);opacity:.8}45%,70%{transform:scale(1.12);opacity:1} }
+@keyframes tiny-antenna { 0%,100%{opacity:.65}50%{opacity:1} }
+@keyframes tiny-pet-bounce { 0%,100%{transform:translateY(0) rotate(0)}25%{transform:translateY(-16px) rotate(-7deg)}55%{transform:translateY(-4px) rotate(5deg)}78%{transform:translateY(-8px) rotate(-3deg)} }
+@keyframes tiny-wave { 0%,100%{transform:rotate(0)}50%{transform:rotate(-23deg)} }
+@keyframes tiny-speech { from{opacity:0;transform:translateY(7px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)} }
+@media(max-width:480px) { #tiny-dock{--tiny-size:96px} #tiny-dock.hero{--tiny-size:min(76vw,290px)} #tiny-speech{font-size:.79rem;padding:10px 12px;max-width:225px} }
+@media(prefers-reduced-motion:reduce) { #tiny-art *, #tiny-art, #tiny-speech{animation:none!important;transition:none!important} }

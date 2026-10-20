@@ -1,0 +1,404 @@
+{
+  "version": "HMY V22",
+  "story_image_count": 24,
+  "story_video_count": 1,
+  "music_count": 5,
+  "images": [
+    {
+      "source": "hmy-1.jpg",
+      "path": "assets/hmy-1.jpg",
+      "group": "old",
+      "source_dimensions": [
+        900,
+        1600
+      ],
+      "dimensions": [
+        900,
+        1600
+      ],
+      "bytes": 180266
+    },
+    {
+      "source": "hmy-2.jpg",
+      "path": "assets/hmy-2.jpg",
+      "group": "old",
+      "source_dimensions": [
+        1152,
+        1536
+      ],
+      "dimensions": [
+        1152,
+        1536
+      ],
+      "bytes": 536644
+    },
+    {
+      "source": "hmy-3.jpg",
+      "path": "assets/hmy-3.jpg",
+      "group": "old",
+      "source_dimensions": [
+        872,
+        1536
+      ],
+      "dimensions": [
+        872,
+        1536
+      ],
+      "bytes": 428591
+    },
+    {
+      "source": "hmy-4.jpg",
+      "path": "assets/hmy-4.jpg",
+      "group": "old",
+      "source_dimensions": [
+        720,
+        1280
+      ],
+      "dimensions": [
+        720,
+        1280
+      ],
+      "bytes": 66287
+    },
+    {
+      "source": "hmy-5.jpg",
+      "path": "assets/hmy-5.jpg",
+      "group": "old",
+      "source_dimensions": [
+        720,
+        1280
+      ],
+      "dimensions": [
+        720,
+        1280
+      ],
+      "bytes": 183221
+    },
+    {
+      "source": "hmy-6.jpg",
+      "path": "assets/hmy-6.jpg",
+      "group": "old",
+      "source_dimensions": [
+        1063,
+        1600
+      ],
+      "dimensions": [
+        1063,
+        1600
+      ],
+      "bytes": 304793
+    },
+    {
+      "source": "hmy-7.jpg",
+      "path": "assets/hmy-7.jpg",
+      "group": "old",
+      "source_dimensions": [
+        1278,
+        720
+      ],
+      "dimensions": [
+        1278,
+        720
+      ],
+      "bytes": 115217
+    },
+    {
+      "source": "hmy-8.jpg",
+      "path": "assets/hmy-8.jpg",
+      "group": "old",
+      "source_dimensions": [
+        880,
+        1471
+      ],
+      "dimensions": [
+        880,
+        1471
+      ],
+      "bytes": 110017
+    },
+    {
+      "source": "0fe26397af4dd3d7fc152ad910839d67.jpeg",
+      "path": "assets/memory-09.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1366,
+        2048
+      ],
+      "dimensions": [
+        1067,
+        1600
+      ],
+      "bytes": 236585
+    },
+    {
+      "source": "12d4be7032758dada385ab7cf62d3f48.jpeg",
+      "path": "assets/memory-10.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1676,
+        2048
+      ],
+      "dimensions": [
+        1309,
+        1600
+      ],
+      "bytes": 237375
+    },
+    {
+      "source": "158bd886e422f299fac1a32f0bf6f66a.jpeg",
+      "path": "assets/memory-11.jpg",
+      "group": "new",
+      "source_dimensions": [
+        720,
+        1280
+      ],
+      "dimensions": [
+        720,
+        1280
+      ],
+      "bytes": 70711
+    },
+    {
+      "source": "49712f99a008eead3000288231d2898f(1).jpeg",
+      "path": "assets/memory-12.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1278,
+        720
+      ],
+      "dimensions": [
+        1278,
+        720
+      ],
+      "bytes": 137203
+    },
+    {
+      "source": "4aef43758c20a2d20d2373e1a0109339.jpeg",
+      "path": "assets/memory-13.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1080,
+        1454
+      ],
+      "dimensions": [
+        1080,
+        1454
+      ],
+      "bytes": 126616
+    },
+    {
+      "source": "61f01a0f7e2e60763666c5ae36af4990.jpeg",
+      "path": "assets/memory-14.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1149,
+        2048
+      ],
+      "dimensions": [
+        898,
+        1600
+      ],
+      "bytes": 233228
+    },
+    {
+      "source": "80008705242feee2d98c38dbb5a3a5d3.jpeg",
+      "path": "assets/memory-15.jpg",
+      "group": "new",
+      "source_dimensions": [
+        720,
+        1184
+      ],
+      "dimensions": [
+        720,
+        1184
+      ],
+      "bytes": 60994
+    },
+    {
+      "source": "IMG_2464.PNG",
+      "path": "assets/memory-16.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1125,
+        1374
+      ],
+      "dimensions": [
+        1125,
+        1374
+      ],
+      "bytes": 386676
+    },
+    {
+      "source": "IMG_4089.jpg",
+      "path": "assets/memory-17.jpg",
+      "group": "new",
+      "source_dimensions": [
+        720,
+        1280
+      ],
+      "dimensions": [
+        720,
+        1280
+      ],
+      "bytes": 140378
+    },
+    {
+      "source": "IMG_6561.JPG",
+      "path": "assets/memory-18.jpg",
+      "group": "new",
+      "source_dimensions": [
+        720,
+        1280
+      ],
+      "dimensions": [
+        720,
+        1280
+      ],
+      "bytes": 111285
+    },
+    {
+      "source": "IMG_7559.PNG",
+      "path": "assets/memory-19.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1020,
+        1020
+      ],
+      "dimensions": [
+        1020,
+        1020
+      ],
+      "bytes": 77514
+    },
+    {
+      "source": "c1e165187d8e69a9d5c8c27b61e076df.jpeg",
+      "path": "assets/memory-20.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1152,
+        2048
+      ],
+      "dimensions": [
+        900,
+        1600
+      ],
+      "bytes": 197513
+    },
+    {
+      "source": "d414f626fc739cf9be6c8a1be58bcd5c.jpeg",
+      "path": "assets/memory-21.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1654,
+        2048
+      ],
+      "dimensions": [
+        1292,
+        1600
+      ],
+      "bytes": 241277
+    },
+    {
+      "source": "de1ef9fcd1d72025ad126cc80df7cbe2.jpeg",
+      "path": "assets/memory-22.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1152,
+        2048
+      ],
+      "dimensions": [
+        900,
+        1600
+      ],
+      "bytes": 194521
+    },
+    {
+      "source": "image(20261020-052415).png",
+      "path": "assets/memory-23.jpg",
+      "group": "new",
+      "source_dimensions": [
+        870,
+        1884
+      ],
+      "dimensions": [
+        739,
+        1600
+      ],
+      "bytes": 148481
+    },
+    {
+      "source": "quality_restoration_20260804012628438.JPG",
+      "path": "assets/memory-24.jpg",
+      "group": "new",
+      "source_dimensions": [
+        1132,
+        2048
+      ],
+      "dimensions": [
+        884,
+        1600
+      ],
+      "bytes": 167864
+    }
+  ],
+  "audio": [
+    {
+      "source": "goi-con-tim-lam-qua.mp3",
+      "path": "assets/goi-con-tim-lam-qua.mp3",
+      "bytes": 4870835,
+      "duration_seconds": 243.513
+    },
+    {
+      "source": "cho-chut.mp3",
+      "path": "assets/cho-chut.mp3",
+      "bytes": 3576672,
+      "duration_seconds": 223.504
+    },
+    {
+      "source": "original-music.mp3",
+      "path": "assets/original-music.mp3",
+      "bytes": 2293165,
+      "duration_seconds": 114.625
+    },
+    {
+      "source": "Ngày Đầu Tiên.mp3",
+      "path": "assets/ngay-dau-tien.mp3",
+      "bytes": 8453232,
+      "duration_seconds": 208.968
+    },
+    {
+      "source": "Phép Màu (Đàn Cá Gỗ OST) - Mounter x MAYDAYs, Minh Tốc _ Official MV.mp3",
+      "path": "assets/phep-mau.mp3",
+      "bytes": 10206700,
+      "duration_seconds": 255.138
+    }
+  ],
+  "video": {
+    "source": "BF577EDB-419C-4187-87FC-EF99DEEF3B79.mov",
+    "original": "assets/video/ky-niem-original.mov",
+    "playback": "assets/video/ky-niem.mp4",
+    "poster": "assets/video/ky-niem-poster.jpg",
+    "note": "MP4 is compatibility derivative of the same one supplied video.",
+    "original_bytes": 8673791,
+    "playback_bytes": 742032,
+    "poster_bytes": 26973,
+    "codec": "H.264 / AAC",
+    "duration_seconds": 6.206
+  },
+  "profile": {
+    "path": "assets/hmy-id.jpg",
+    "source": "hmy-id.jpg",
+    "separate_from_story_images": true
+  },
+  "puzzle_derivative": {
+    "source": "assets/memory-14.jpg",
+    "output": "assets/puzzle-preview.jpg",
+    "purpose": "Square crop for 3x3 puzzle, preserves face proportions",
+    "crop_box": [
+      0,
+      152,
+      898,
+      1050
+    ]
+  }
+}
